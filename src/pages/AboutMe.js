@@ -1,7 +1,6 @@
 import React from "react";
 
 
-
 function AboutMe() {
   
     return (
@@ -9,8 +8,7 @@ function AboutMe() {
       <div className="container">
         <div className="jumbotron">
           <h1 className="center-text"><strong>James Gigantes</strong></h1>
-         
-          <img src="/react-profile-live/Photos/James.jpg" className="img-rounded responsive" alt="This is James" />
+          <img src="Photos/James.jpg" className="img-rounded responsive"  alt="Photo of Master Gigantes" />
           
         </div>
         <div className="row">

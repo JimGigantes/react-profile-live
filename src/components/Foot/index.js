@@ -6,9 +6,8 @@ function Nav() {
     <div>
       <nav className="site-header sticky-top py-1">
         <div className="container d-flex flex-column flex-md-row justify-content-between">
-          <a className="py-2 d-none d-md-inline-block" href="/">Home</a>
-          <a className="py-2 d-none d-md-inline-block" href="/contact">Contact</a>
-          <a className="py-2 d-none d-md-inline-block" href="/projects">Portfolio</a>
+          <p> </p>
+          
         </div>
       </nav>
     </div>
