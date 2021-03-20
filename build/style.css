@@ -1,0 +1,68 @@
+
+    body {
+        margin: 0;
+        font-family: 'Piazzolla', serif;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        text-align: left;
+        background-color: #fff;
+    }
+    h3{
+        text-align: center;
+    }
+    .py-2 {
+        background-color: #212529;
+        color:#fff ;
+    }
+    .center-text{
+        text-align: center;
+        height: auto;
+    }
+    .card{
+        background-color: lightslategray;
+        width: 50vw;
+        margin: auto;
+    }
+    .iconx{
+        width: 5%;
+    }
+    .site-header {
+    background-color: rgba(0, 0, 0, .85);
+    }
+    .responsive {
+       width: 100%;
+       max-width: 275px;
+       height: auto;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 5%;
+      }
+      ul {
+        display: table;
+        margin: 0 auto;
+      }
+
+    @media screen and (max-width: 768px) {
+        /* The body's bg color will be #333 */
+       
+      
+        /* The wrapper's width will be 600px */
+        .wrapper {
+          width: 600px;
+          padding: 30px;
+          margin: 40px auto
+        }
+        .responsive {
+            width: 100%;
+            max-width: 275px;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10%;
+        }
+    }
+         
