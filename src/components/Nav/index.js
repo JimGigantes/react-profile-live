@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 function Nav() {
   return (
@@ -6,9 +7,9 @@ function Nav() {
     <div>
       <nav className="site-header sticky-top py-1">
         <div className="container d-flex flex-column flex-md-row justify-content-between">
-          <a className="py-2 d-none d-md-inline-block" href="/">Home</a>
-          <a className="py-2 d-none d-md-inline-block" href="/contact">Contact</a>
-          <a className="py-2 d-none d-md-inline-block" href="/projects">Portfolio</a>
+          <Link className="py-2 d-none d-md-inline-block" to="/">Home</Link>
+          <Link className="py-2 d-none d-md-inline-block" to="/contact">Contact</Link>
+          <Link className="py-2 d-none d-md-inline-block" to="/projects">Portfolio</Link>
         </div>
       </nav>
     </div>

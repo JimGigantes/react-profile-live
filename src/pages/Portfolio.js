@@ -16,7 +16,7 @@ class Portfolio extends Component {
           
           <ProjectCard
 
-          ID={project.ID} name={project.projectName} imageURL={project.imageURL} projectURL={project.projectURL}
+          ID={project.ID} name={project.projectName} imageURL={"/react-profile-live/" + project.imageURL} projectURL={project.projectURL}
 
           />
 

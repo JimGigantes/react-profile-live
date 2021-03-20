@@ -1,11 +1,12 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import AboutMe from "./pages/AboutMe";
 import Contact from "./pages/Detail";
 import NoMatch from "./pages/NoMatch";
 import Nav from "./components/Nav";
 import Portfolio from "./pages/Portfolio"
 import Foot from "./components/Foot";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 
 
